@@ -1,0 +1,349 @@
+/* Home.hmtl */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D9687;
+    padding: 20px 0;
+}
+
+.navbar .logo {
+    margin-left: 20px;
+}
+
+.navbar h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.landing {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.color-strip {
+    background-color: #0D9687;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-box {
+    width: 45%;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #0D9687;
+    border-radius: 10px;
+    background-color: rgba(13, 150, 135, 0.2);
+}
+
+.feature h2 {
+    font-size: 24px;
+    color: #0D9687;
+}
+
+.feature img {
+    width: 150px;
+    height: 150px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #0D9687;
+}
+
+/* Estilos para la barra de navegación */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #0D9687;
+}
+
+/* Contact.hmtl */
+/* Estilos para la página Contact */
+.contact-form {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-container {
+    background-color: #f2f2f2; /* Color de fondo del cuadro del formulario */
+    border: 2px solid #0D9687; /* Borde del cuadro del formulario */
+    border-radius: 10px; /* Borde redondeado del cuadro del formulario */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido dentro del cuadro */
+    max-width: 1000px; /* Ajusta el ancho máximo aquí */
+    height: auto; /* Alto del cuadro (ajusta según tus necesidades) */
+    width: 500px;
+    margin: 0 auto; /* Centra el cuadro horizontalmente */
+}
+
+
+.contact-form form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0D9687;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0D9687;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0B8374;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    max-width: 100%;
+}
+
+/* Member.hmtl */
+
+.membership {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.membership-image {
+    margin-right: 20px;
+}
+
+.membership-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership-plan {
+    border: 2px solid #0D9687;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: rgba(13, 150, 135, 0.2);
+}
+
+.membership-plan h2 {
+    font-size: 24px;
+    color: #0D9687;
+    border-bottom: 1px solid #0D9687;
+    padding-bottom: 10px;
+}
+
+.membership-plan p {
+    font-size: 16px;
+    color: #0D9687;
+    margin: 15px 0;
+}
+
+.search-bar {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 2px solid #0D9687;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: #0D9687;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0B8374;
+}
+
+/* Mueve el buscador hacia el pie de página */
+footer {
+    background-color: #0D9687;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+/* Sign In.hmtl */
+
+.sign-in {
+    text-align: center;
+    padding: 50px;
+}
+
+.sign-in h1 {
+    font-size: 36px;
+    color: #0D9687;
+}
+
+.sign-in form {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.sign-in label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0D9687;
+}
+
+.sign-in input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #0D9687;
+    border-radius: 5px;
+}
+
+.sign-in button {
+    background-color: #0D9687;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: #0B8374;
+}
+
+/* Log In.html */
+
+.log-in {
+    text-align: center;
+    padding: 50px;
+}
+
+.log-in h1 {
+    font-size: 36px;
+    color: #0D9687;
+}
+
+.log-in form {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.log-in label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0D9687;
+}
+
+.log-in input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #0D9687;
+    border-radius: 5px;
+}
+
+.log-in button {
+    background-color: #0D9687;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.log-in button:hover {
+    background-color: #0B8374;
+}
