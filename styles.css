@@ -347,3 +347,42 @@ footer {
 .log-in button:hover {
     background-color: #0B8374;
 }
+
+
+.image-box {
+    flex: 1;
+    max-width: 400px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;            
+    justify-content: center;
+}
+
+.video {
+    margin: 1em;
+}
+
+.video h3 {
+    margin-top: 0;
+}
+
+.descarga-android,
+.descarga-ios {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.descarga-android a,
+.descarga-ios a {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1em;
+    }
